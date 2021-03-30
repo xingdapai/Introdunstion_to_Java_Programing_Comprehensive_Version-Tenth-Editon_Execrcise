@@ -3,7 +3,7 @@
  * @version 1.0
  * @date 2021/3/30 11:19
  */
-public class Problem9 {
+public class Problem1_9 {
     public static void main(String[] args){
 
         double width = 4.5;

@@ -3,7 +3,7 @@
  * @version 1.0
  * @date 2021/3/30 13:53
  */
-public class Problem13 {
+public class Problem1_13 {
     public static void main(String[] args){
 
         double a, b, c, d, e, f;
