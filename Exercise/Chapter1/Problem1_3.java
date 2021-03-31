@@ -4,6 +4,7 @@
  * @date 2021/3/20 16:08
  */
 public class Problem1_3 {
+
     public static void main(String[] args) {
         // Display JAVA on the console
         System.out.println("    J    A    V     V    A   ");

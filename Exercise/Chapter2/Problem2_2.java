@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Problem2_2 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter the radius and length of a cylinder:");
+        System.out.print("Enter the radius and length of a cylinder: ");
 
         double radius = input.nextDouble();
         double height = input.nextDouble();

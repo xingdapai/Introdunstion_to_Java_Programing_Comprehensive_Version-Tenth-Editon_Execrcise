@@ -6,7 +6,7 @@
 public class Problem1_13 {
     public static void main(String[] args){
 
-        double a, b, c, d, e, f;
+        double a, b, c, d, e, f, x, y;
         a = 3.4;
         b = 50.2;
         c = 2.1;
@@ -14,7 +14,10 @@ public class Problem1_13 {
         e = 44.5;
         f = 5.9;
 
-        System.out.printf("x = %f\n", (e * d - b * f) / (a * d - b * c));
-        System.out.printf("y = %f\n", (a * f - e * c) / (a * d - b * c));
+        x = (e * d - b * f) / (a * d - b * c);
+        y = (a * f - e * c) / (a * d - b * c);
+
+        System.out.printf("x = %f\n", x);
+        System.out.printf("y = %f\n", y);
     }
 }

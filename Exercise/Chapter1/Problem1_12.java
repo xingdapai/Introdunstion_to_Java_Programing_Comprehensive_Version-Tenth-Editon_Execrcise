@@ -4,7 +4,9 @@
  * @date 2021/3/30 13:46
  */
 public class Problem1_12 {
+
     public static void main(String[] args){
+
         double distanceByKm = 24 * 1.6;
         double usedTime = 60 + 40 + 35.0 / 60;
 

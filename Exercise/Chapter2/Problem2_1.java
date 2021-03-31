@@ -9,9 +9,11 @@ public class Problem2_1 {
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter a degree in Celsius:");
+        System.out.print("Enter a degree in Celsius: ");
         double degreeCelsius = input.nextDouble();
-        System.out.printf("%.1f Celsius is %.1f Fahrenheit", degreeCelsius, (9.0 / 5.0) * degreeCelsius + 32);
+        double degreeFahrenheit = (9.0 / 5.0) * degreeCelsius + 32;
+
+        System.out.printf("%.1f Celsius is %.1f Fahrenheit", degreeCelsius, degreeFahrenheit);
 
     }
 }
